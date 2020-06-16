@@ -72,7 +72,8 @@ if (shell.exec('git commit -am "Auto-commit"').code !== 0) {
     shell.exit(1);
 }
 ```
-###html-webpack-plugin
+
+### html-webpack-plugin
 >动态生成html文件，根据配置可以将打包后成的文件注入到该html文件
 ```
 var HtmlWebpackPlugin = require('html-webpack-plugin');
