@@ -6,7 +6,7 @@
 ##构建工具包介绍
 ### chalk
 >node终端样式库
-````
+```
 const log = console.log
 // 颜色字体
 log( chalk.red("红色") ) 
