@@ -3,7 +3,6 @@
 >[😀一个配置完整的例子在这里🙄](https://github.com/nb-l/vueBase)
 
 [TOC]
-##构建工具包介绍
 ### chalk
 >node终端样式库
 ```
