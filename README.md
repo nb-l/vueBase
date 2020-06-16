@@ -2,7 +2,6 @@
 >前言： 作为一个现代javascript 应用程序的静态模块打包器，webpack能将各种资源，如js，css， 图片等作为模块来处理，webpack目前最新的版本是4.0，文章将在4.0 的基础上，从使用者的角度，一步步教你认识并搭建一个简单的webpack配置项目，当然webpack的配置和使用较为丰富且复杂，更多的内容需要参考[webpack官网](https://www.webpackjs.com/)  
 >[😀一个配置完整的例子在这里🙄](https://github.com/nb-l/vueBase)
 
-[TOC]
 ### chalk
 >node终端样式库
 ```
