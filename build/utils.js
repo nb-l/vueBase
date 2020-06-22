@@ -66,7 +66,6 @@ exports.htmlPlugin = function () {
       inject: true
     }
 
-    confg.wmxy_jsapi = process.env.NODE_ENV === 'production' ? configObj.wmxy_jsapi : config.dev.wmxy_jsapi
     confg.vconsole = process.env.NODE_ENV === 'production' ? configObj.vconsole : config.dev.vconsole
 
     if (process.env.NODE_ENV === 'production') {

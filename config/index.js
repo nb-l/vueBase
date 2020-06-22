@@ -43,8 +43,7 @@ module.exports = {
 
     cssSourceMap: true,
 
-    wmxy_jsapi: '<script type="text/javascript" src="./static/js/wanxiao-js-api-v1.3.1.js"></script>',
-    vconsole: ''
+    vconsole: '<script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script>'
   },
 
   beta: {
@@ -74,8 +73,7 @@ module.exports = {
     // Set to `true` or `false` to always turn it on or off
     bundleAnalyzerReport: process.env.npm_config_report,
 
-    wmxy_jsapi: '<script type="text/javascript" src="./static/js/wanxiao-js-api-v1.3.1.js"></script>',
-    vconsole: '<script src="./static/js/vconsole.min.js"></script>'
+    vconsole: '<script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script>'
   },
 
   build: {
@@ -108,7 +106,6 @@ module.exports = {
     // Set to `true` or `false` to always turn it on or off
     bundleAnalyzerReport: process.env.npm_config_report,
 
-    wmxy_jsapi: '<script type="text/javascript" src="./static/js/wanxiao-js-api-v1.3.1.js"></script>',
     vconsole: ''
   }
 }

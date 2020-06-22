@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 
+if(process.env.PACK_ENV == 'beta'){
+  var vConsole = new VConsole();
+}
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

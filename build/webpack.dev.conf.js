@@ -27,6 +27,11 @@ const devWebpackConfig = {
       config.build.assetsPublicPath : config.dev.assetsPublicPath
   },
 
+  optimization:{
+    noEmitOnErrors:true,
+    namedModules:true
+  },
+
   devtool: 'cheap-module-eval-source-map',
   devServer: {
     clientLogLevel: 'warning',
@@ -121,8 +126,6 @@ const devWebpackConfig = {
       'process.env': require('../config/dev.env')
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
     new VueLoaderPlugin(),
     new CopyWebpackPlugin({
       patterns: [{
